@@ -1,17 +1,16 @@
-/************ Custom Font ************/
 @font-face {
 	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Bold.ttf');
+	src: url('App.css');
 	font-weight: 700;
 }
 @font-face {
 	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Medium.ttf');
+	src: url('App.css');
 	font-weight: 500;
 }
 @font-face {
 	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Book.ttf');
+	src: url('App.css');
 	font-weight: 400;
 }
 
@@ -234,7 +233,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  background-image: url('App.test.js');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -541,11 +540,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  background-image: url('App.test.js'); 
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .newsletter-bx {
   background: #FFFFFF;
   border-radius: 55px;
